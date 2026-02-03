@@ -1,0 +1,7 @@
+[package]
+name = "m4arch-daemon"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+m4arch-core = { path = "../m4arch-core" }

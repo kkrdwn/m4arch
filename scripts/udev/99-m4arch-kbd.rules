@@ -1,0 +1,1 @@
+SUBSYSTEM=="leds", KERNEL=="rgb:kbd_backlight", MODE="0660", GROUP="m4arch"

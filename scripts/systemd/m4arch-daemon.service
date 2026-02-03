@@ -1,0 +1,19 @@
+[Unit]
+Description=M4Arch Keyboard Backlight Daemon
+After=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/m4arch-daemon
+Restart=on-failure
+
+User=root
+Group=root
+
+NoNewPrivileges=true
+ProtectSystem=strict
+ProtectHome=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target
