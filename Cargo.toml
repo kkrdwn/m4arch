@@ -2,3 +2,6 @@
 members = ["crates/m4arch-core","crates/m4arch-cli","crates/m4arch-daemon","crates/m4arch-gui","crates/m4arch-ipc","crates/m4arch-service"]
 
 resolver = "2"
+
+[workspace.package]
+license = "MIT"
